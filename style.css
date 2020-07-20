@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #b8faff;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -40,13 +40,13 @@ h2 {
 }
 
 .form-control label {
-    color: #777;
+    color: black;
     display: block;
     margin-bottom: 5px;
 }
 
 .form-control input {
-    border: 2px solid #f0f0f0;
+    border: 2px solid black;
     border-radius: 4px;
     display: block;
     width: 100%;
@@ -56,7 +56,7 @@ h2 {
 
 .form-control input:focus {
     outline: 0;
-    border-color: #777;
+    border-color: black;
 }
 
 .form-control.success input {
@@ -81,10 +81,10 @@ h2 {
 
 .form button {
     cursor: pointer;
-    background-color: #3498db;
-    border: 2px solid #3498db;
+    background-color: white;
+    border: 2px solid black;
     border-radius: 4px;
-    color: white;
+    color: black;
     display: block;
     font-size: 16px;
     padding: 10px;
